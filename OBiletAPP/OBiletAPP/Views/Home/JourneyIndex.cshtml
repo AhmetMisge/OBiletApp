@@ -1,0 +1,35 @@
+﻿@model OBiletAPP.Dtos.Response.Journey.JourneyResponse
+
+
+<p><center>@Model.Data.Select(x=>x.OriginLocation).FirstOrDefault() - @Model.Data.Select(x=>x.DestinationLocation).FirstOrDefault()</center></p>
+<p><center>@DateTime.Now.ToShortDateString()</center></p>
+
+@{
+    if (Model.Data != null)
+    {
+        @foreach (var item in Model.Data)
+        {
+            <div class="align-content-center form-group">
+                <div> <p style="color:darkblue">Kalkış - Varış</p> </div>
+                <div>
+                    <p style="color:darkblue"><b>
+                        @item.Journey.Stops.Where(x=>x.IsOrigin == true).Select(x=>x.Time.Substring(11,5).ToString()).FirstOrDefault() -
+                        @item.Journey.Stops.Where(x=>x.IsDestination == true).Select(x=>x.Time.Substring(11,5).ToString()).FirstOrDefault()
+                    </b></p>
+                </div>
+                <div>
+
+                    <p>@item.Journey.Origin - @item.Journey.Destination   <input type="button" id="price" class="btn btn-danger" value="@item.Journey.OriginalPrice @item.Journey.Currency" /></p>
+                </div>
+            </div>
+        }
+    }
+
+    else
+    {
+        <p>Sefer Bulunamadı.</p>
+    }
+}
+
+
+

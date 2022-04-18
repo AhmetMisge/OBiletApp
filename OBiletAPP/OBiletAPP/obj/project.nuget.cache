@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "mgpdM5Yb4r35G44RvmXkX3UqDNuVfK8R0BeBnMOWk04Vhse5ZVIcXL2DEdhrKAanBk76DP9a/Uid2uHr6TnAXA==",
+  "success": true,
+  "projectFilePath": "Z:\\repos\\OBiletAPP\\OBiletAPP\\OBiletAPP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gambit\\.nuget\\packages\\bootstrap\\3.4.1\\bootstrap.3.4.1.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\bootstrap.datepicker\\1.8.0.1\\bootstrap.datepicker.1.8.0.1.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\bootstrap.v3.datetimepicker.css\\4.17.49\\bootstrap.v3.datetimepicker.css.4.17.49.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\jquery\\1.9.1\\jquery.1.9.1.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\moment.js\\2.9.0\\moment.js.2.9.0.nupkg.sha512",
+    "C:\\Users\\Gambit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
